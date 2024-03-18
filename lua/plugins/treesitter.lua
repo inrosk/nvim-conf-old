@@ -8,6 +8,7 @@ return {
     },
     opts = function()
       require("nvim-treesitter.configs").setup({
+        auto_install = true,
         ensure_installed = {
           "astro",
           "css",
@@ -17,6 +18,8 @@ return {
           "jsdoc",
           "json",
           "lua",
+          "markdown",
+          "markdown_inline",
           "nix",
           "org",
           "python",
@@ -44,13 +47,13 @@ return {
         matchup = {
           enable = true,
         },
-        context_commentstring = {
-          enable = true,
-          opts = {
-            lua = "-- %s",
-            nix = "# %s",
-          },
-        },
+        -- context_commentstring = {
+        --   enable = true,
+        --   opts = {
+        --     lua = "-- %s",
+        --     nix = "# %s",
+        --   },
+        -- },
         autotag = {
           enable = false,
         },

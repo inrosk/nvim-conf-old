@@ -34,8 +34,9 @@ return {
 
       -- NvimTree
       CursorLine = { bg = "#282828" }, -- Fix highlighting in nvim-tree
-      -- Directory = { fg = "#83a598" },
-      -- NvimTreeFolderIcon = { fg = "#83a598" },
+      NvimTreeNormal = { bg = "#161a1c" },
+      Directory = { fg = "#ebdbb2" },
+      NvimTreeFolderIcon = { fg = "#ebdbb2" },
 
       -- Hover menu
       Pmenu = { bg = "#1d2021" },

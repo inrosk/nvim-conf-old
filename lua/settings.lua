@@ -32,6 +32,7 @@ o.laststatus = 3 -- only show statusbar on the bottom
 o.showmode = false -- don't show mode (insert, normal, etc)
 o.scrolloff = 10 -- keep 10 lines above and below cursor
 o.signcolumn = "yes" -- always show signcolumn
+o.fillchars = { eob = " " } -- hide ~ characters
 
 -- Indentation
 o.tabstop = 2 -- number of spaces tabs count for

@@ -68,7 +68,7 @@ return {
 
   {
     "nvim-telescope/telescope.nvim", -- Telescope
-    version = "0.1.0",
+    tag = "0.1.4",
     dependencies = {
       "nvim-lua/plenary.nvim",
       "nvim-telescope/telescope-ui-select.nvim", -- Telescope UI for quickfixes, etc.
